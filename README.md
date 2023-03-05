@@ -5,7 +5,7 @@
 - CDN 引入
 
 ```
-<script src="https://unpkg.com/@weiheli/ajax-proxy@0.0.1/dist/ajax-proxy.cdn.js"></script>
+<script src="https://unpkg.com/@weiheli/ajax-proxy@latest/dist/ajax-proxy.cdn.js"></script>
 ```
 
 引入后会有一个名为 `ap`（ajax proxy）的全局对象，可以通过 `ap.startProxy` 来启动代理。
