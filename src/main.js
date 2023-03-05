@@ -1,7 +1,7 @@
-export function onProxy() {
+import { startProxy } from './startProxy';
+import { endProxy } from './endProxy';
 
-}
-
-export function offProxy() {
-
+export {
+  startProxy,
+  endProxy,
 }
