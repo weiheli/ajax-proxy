@@ -1,1 +1,1 @@
-# ajax-proxy
+# xhr-proxy

@@ -1,11 +1,11 @@
 {
-  "name": "@weiheli/ajax-proxy",
+  "name": "xhr-proxy",
   "version": "0.0.1",
   "description": "",
   "exports": {
     ".": {
-      "require": "./dist/ajax-proxy.umd.js",
-      "default": "./dist/ajax-proxy.es.js"
+      "require": "./dist/xhr-proxy.umd.js",
+      "default": "./dist/xhr-proxy.es.js"
     }
   },
   "files": [
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/weiheli/ajax-proxy.git"
+    "url": "git+https://github.com/weiheli/xhr-proxy.git"
   },
   "keywords": [],
   "author": "weiheli",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/weiheli/ajax-proxy/issues"
+    "url": "https://github.com/weiheli/xhr-proxy/issues"
   },
-  "homepage": "https://github.com/weiheli/ajax-proxy#readme",
+  "homepage": "https://github.com/weiheli/xhr-proxy#readme",
   "devDependencies": {
     "rollup": "^3.18.0"
   }
