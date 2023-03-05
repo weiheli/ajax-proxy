@@ -1,0 +1,31 @@
+{
+  "name": "ajax-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": {
+      "require": "dist/ajax-proxy.umd.js",
+      "default": "dist/ajax-proxy.es.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiheli/ajax-proxy.git"
+  },
+  "keywords": [],
+  "author": "weiheli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weiheli/ajax-proxy/issues"
+  },
+  "homepage": "https://github.com/weiheli/ajax-proxy#readme",
+  "devDependencies": {
+    "rollup": "^3.18.0"
+  }
+}
