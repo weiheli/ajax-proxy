@@ -1,11 +1,11 @@
 {
   "name": "ajax-proxy",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "exports": {
     ".": {
-      "require": "dist/ajax-proxy.umd.js",
-      "default": "dist/ajax-proxy.es.js"
+      "require": "./dist/ajax-proxy.umd.js",
+      "default": "./dist/ajax-proxy.es.js"
     }
   },
   "files": [
